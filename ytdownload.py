@@ -3,7 +3,7 @@ from pytube import YouTube
 import os
 
 #下載影片並命名為tmp.mp4
-def ytdown():
+def ytDownload():
     url = input("輸入網址:")
     target_path = r"D:\downloads"
     file_name = input("輸入歌名:")
@@ -15,7 +15,7 @@ def ytdown():
         output_path = target_path
     )
 
-ytdown()
+ytDownload()
 
 """
 #將下載的mp4轉為mp3
